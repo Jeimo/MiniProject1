@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Anton&family=Kalam:wght@300;400&family=Mandali&family=Patrick+Hand&family=Signika+Negative&display=swap');
+* {
+    background-color:whitesmoke;
+    font-family: 'Mandali', sans-serif;
+}
+
+.navbar .navbar-brand {
+    letter-spacing: 6px;
+}
+
+.nav-item .about {
+    color: rgb(243, 74, 13);
+}
+
+.carItem {
+    height: 450px;
+}
+
+.car-img {
+    height: 100%;
+}
+
+.slice {
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(243, 74, 13);
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-family: 'Anton', sans-serif;
+}
+
+.card-body {
+    height: 300px;
+}
+
+.card-btn {
+    background-color: rgb(243, 74, 13);
+}
+
+.footer-link {
+    text-decoration: none;
+    line-height: 200%;
+}
+
+.footer-brand {
+    color: black;
+    text-decoration: none;
+}
+
+.card-comment {
+    height: 180px;
+}
+
+.card-partner {
+    height: 250px
+}
