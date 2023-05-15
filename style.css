@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Anton&family=Dancing+Script:wght@400;500;600&family=Kalam:wght@300;400&family=Mandali&family=Patrick+Hand&family=Signika+Negative&display=swap');
 * {
-    background-color:white;
     font-family: 'Mandali', sans-serif;
     font-size: medium;
 }
@@ -79,6 +78,20 @@
     text-transform: uppercase;
 }
 
-.footerKnives {
-    background-color: orangered;
+.partner {
+    color: orangered;
+}
+
+.btn-partner {
+    background-color: coral;
+}
+
+.footerNav {
+    list-style: none;
+}
+
+.foot-link {
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
