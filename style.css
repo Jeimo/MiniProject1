@@ -109,7 +109,7 @@
     letter-spacing: 6px;
 }
 
-.textCC p {
+.text2C p {
     font-family: 'Kalam', cursive;
     font-weight: 400;
 }
@@ -117,4 +117,9 @@
 .cardCC {
     text-align: center;
     color: black
+}
+
+.img2chefs {
+    max-width: 300px;
+    height: 400px;
 }
