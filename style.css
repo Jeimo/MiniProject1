@@ -32,10 +32,6 @@
     font-family: 'Anton', sans-serif;
 }
 
-.card-body {
-    height: 300px;
-}
-
 .read {
     color: coral;
     letter-spacing: 3px;
@@ -60,8 +56,8 @@
 }
 
 .japanImg, .thailandImg, .philImg {
-    width: 150px;
-    height: 180px;
+    width: 130px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -94,4 +90,31 @@
     text-decoration: none;
     list-style: none;
     color: black;
+}
+
+.footer-btn {
+    background-color: coral;
+    font-family: 'Anton', sans-serif;
+    border-radius: 0px;
+}
+
+.footer-btn:hover {
+    background-color: orangered;
+}
+
+.kitchen {
+    color: orangered;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 6px;
+}
+
+.textCC p {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+
+.cardCC {
+    text-align: center;
+    color: black
 }
