@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Anton&family=Dancing+Script:wght@400;500;600&family=Kalam:wght@300;400&family=Mandali&family=Patrick+Hand&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kalam:wght@300;400&family=Mandali&family=Zeyada&display=swap');
 
 * {
     font-family: 'Mandali', sans-serif;
@@ -11,6 +11,31 @@
 
 .nav-item .about {
     color: rgb(243, 74, 13);
+}
+
+.btn-partner {
+    font-family: 'Anton', sans-serif;
+    background-color: coral;
+    letter-spacing: 4px;
+    font-weight: 300;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-partner2 {
+    background-color: coral;
+    font-family: 'Anton', sans-serif;
+    border-radius: 0px;
+}
+.btn-partner:hover, .btn-partner2:hover {
+    background-color: orangered;
+}
+
+.featured {
+    text-decoration: none;
+}
+
+.featured:hover {
+    color: coral;
 }
 
 .carItem {
@@ -83,17 +108,18 @@
     text-transform: uppercase;
 }
 
-.partner {
-    color: orangered;
+.btn-footer {
+    background-color: coral;
+    font-family: 'Anton', sans-serif;
+    border-radius: 0;
 }
 
-.btn-partner {
-    background-color: coral;
+.btn-footer:hover {
+    background-color: orangered;
 }
 
 .footerNav {
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .footer-brand {
@@ -107,16 +133,6 @@
     color: black;
 }
 
-.footer-btn {
-    background-color: coral;
-    font-family: 'Anton', sans-serif;
-    border-radius: 0px;
-}
-
-.footer-btn:hover {
-    background-color: orangered;
-}
-
 .kitchen {
     color: orangered;
     text-transform: uppercase;
@@ -126,7 +142,8 @@
 
 .text2C p {
     font-family: 'Kalam', cursive;
-    font-weight: 400;
+    font-weight: 500;
+    padding: 5px
 }
 
 .img2chefs {
@@ -143,4 +160,8 @@
 
 .contactInfo {
     list-style-type: none;
+}
+
+.fa-brands, .fa-solid {
+    color: orangered;
 }

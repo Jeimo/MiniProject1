@@ -12,26 +12,23 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">KNIVES<span style="color: rgb(243, 74, 13)">ASIA</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
-                <li class="nav-item">
-                    <a class="nav-link" href="#foodCarousel">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#knivesAbout">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blogs.html">BLOGS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACTS</a>
-                </li>
-                </ul>
-            </div>
+                <a class="navbar-brand fw-bold" href="index.html">KNIVES<span style="color: rgb(243, 74, 13)">ASIA</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-links">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:orangered" href="#foodCarousel">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#knivesAbout">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">BLOGS</a>
+                    </li>
+                    </ul>
+                </div>
         </div>
     </nav>
 
@@ -70,7 +67,27 @@
         </div>
 
         <div class="container">
-            <h2 class="slice text-start">featured slices</h2>
+            <button type="button" class="btn m-2 btn-partner btn-info" data-bs-toggle="collapse" data-bs-target="#collapsePartner">Partner with Knives!</button>
+            <div id="collapsePartner" class="collapse">
+                <form>
+                    <div class="row">
+                        <p>Enter your details to get started. We will get in touch with you for future partnership.</p>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email" name="email">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Brand name" name="name">
+                        </div>  
+                    </div>
+                    <button type="button" class="btn mt-2 btn-partner2 w-30">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <a href="blogs.html" class="text-decoration-none"><h2 class="slice text-start featured">featured slices</h2></a>
             <div class="row g-3">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card card-img-top">
@@ -110,7 +127,7 @@
     <div class="container text-center py-4" id="knivesAbout">
         <div class="row mt-4 pt-2">
                 <div class="col-md-4">
-                    <h2 class="kin text-center">knives <span class="in">in</span> asia</h2>
+                    <h2 class="kin">knives <span class="in">in</span> asia</h2>
                     <img src="./images/japan.jpeg" class="japanImg" alt="Japan">
                     <h5 class="japanTxt">Japan</h5>
                     <img src="./images/thailand.jpeg" class="thailandImg" alt="Thailand">
@@ -120,61 +137,61 @@
                 </div>
                 <div class="col-md-8">
                     <div class="row">
-                        <div class="col-sm-4">
-                            <h4 class="knivesAbout pt-5">About our knives</h4>
-                            <div class="container pt-2">
+                        <div class="col-12 col-sm-10 col-md-6">
+                            <h4 class="knivesAbout pt-1">About our knives</h4>
+                            <div class="container pt-2 lh-lg text-start">
                             <p>We believe that food is not just about sustenance; it's about joy, connection, and creativity.</p>
                             <p>That's why we've curated a diverse collection of blogs that spans different cuisines, ingredients, and success stories. From classic comfort foods to exotic flavors, we have something for everyone.</p>
-                            <p>Featuring small to large scale food  business that will surely make you drool.</p>
+                            <p>Our website is also a community of food lovers who share their experiences, ideas, and feedback. We encourage you to join us, explore our recipes, and let us know what you think. Whether you're here to cook, learn, or simply drool over food pictures, we hope you'll find something that inspires you. So, let's get cooking!</p>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-4">
-                            <img src="./images/foodknives.jpeg" alt="Knives Food" width="100%" height="500px">
+                        <div class="col-12 col-sm-10 col-md-6">
+                            <img src="./images/foodknives.jpeg" alt="Knives Food" width="100%" height="100%">
                         </div>
                     </div>
                 </div>
         </div>
     </div>
 
-    <footer class="bg-danger-subtle py-3 mt-3">
+    <footer class="bg-danger-subtle pt-3 mt-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-4">
-                    <div class="container text-dark">
-                        <h5 class="partner">Partner with Knives!</h5>
-                        <p>Wish to be featured on our upcoming editions? Fill out the form to get started</p>
+                    <div class="container text-start my-4">
+                        <a class="footer-brand fw-bolder" href="#foodCarousel">KNIVES<span style="color: rgb(243, 74, 13)">ASIA</span></a>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 bg-danger-subtle"><a class="foot-link" href="#foodCarousel">HOME</a></li>
+                            <li class="list-group-item border-0 bg-danger-subtle"><a class="foot-link" href="index.html#knivesAbout">ABOUT</a></li>
+                            <li class="list-group-item border-0 bg-danger-subtle"><a class="foot-link" href="blogs.html">BLOGS</a></li>
+                        </ul>
+                        <h6 class="pt-1 fw-bold">We're all over the net!</h6>
+                        <ul class="list-group text-start d-flex flex-row">
+                            <li class="list-group-item border-0 bg-danger-subtle"><a href="#"><i class="fa-solid fa-mobile"></i></a></i></li>
+                            <li class="list-group-item border-0 bg-danger-subtle"><a href="#"><i class="fa-solid fa-at"></i></a></li>
+                            <li class="list-group-item border-0 bg-danger-subtle"><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+                            <li class="list-group-item border-0 bg-danger-subtle"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li class="list-group-item border-0 bg-danger-subtle"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-group-item border-0 bg-danger-subtle"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-4">
+                    <div class="container my-3">
+                        <h5>Sign-up for email updates and more!</h5>
+                        <h6>Get a free e-cookbook with our top 25 recipes.</h6>
                         <form>
                             <input type="email" class="form-control form-control-sm mt-3" placeholder="Enter your Email">
-                            <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter your Brand name">
-                            <button type="button" class="btn mt-2 btn-partner">Submit</button>
+                            <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter your name">
+                            <button type="button" class="btn mt-2 btn-footer">Submit</button>
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-4">
-                    <div class="container text-end mt-4">
-                        <a class="navbar-brand fw-bold" href="#">KNIVES<span style="color: rgb(243, 74, 13)">ASIA</span></a>
-                        <ul class="footerNav">
-                            <li class="foot-item">
-                              <a class="foot-link" href="index.html">HOME</a>
-                            </li>
-                            <li class="foot-item">
-                              <a class="foot-link" href="index.html">ABOUT</a>
-                            </li>
-                            <li class="foot-item">
-                              <a class="foot-link" href="blogs.html">BLOGS</a>
-                            </li>
-                            <li class="foot-item">
-                              <a class="foot-link" href="#">CONTACTS</a>
-                            </li>
-                        </ul><hr>
-                        <small>&copy; KNIVESASIA. All Rights Reserved </small>
-                    </div>
-                </div>
+
             </div>
+                <hr><small>&copy; KNIVESASIA. All Rights Reserved 2023 </small>
         </div>
     </footer>
-
-
 
 
 
